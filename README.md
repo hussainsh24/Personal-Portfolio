@@ -1,10 +1,5 @@
 # Personal Portfolio - SHAIKH M.HUSAIN
-
-A clean, minimalist personal portfolio website built with modern **HTML5**, **CSS3**, and **Bootstrap 5.3**.
-
----
-
-## 👨‍💻 Profile Details
+Profile Details
 
 - **Name**: SHAIKH M.HUSAIN
 - **Degree**: Second Year &bull; **B.E. Information Technology**
