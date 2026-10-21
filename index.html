@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHAIKH M.HUSAIN | B.E. Information Technology Student</title>
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="Personal Portfolio of Shaikh M.Husain - Second Year B.E. Information Technology Student.">
+  <meta name="author" content="Shaikh M.Husain">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Font Awesome 6.5.2 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="100" tabindex="0">
+
+  <!-- Ambient Background Glow Mesh -->
+  <div class="bg-mesh" aria-hidden="true">
+    <div class="mesh-circle-1"></div>
+    <div class="mesh-circle-2"></div>
+    <div class="mesh-circle-3"></div>
+  </div>
+
+  <!-- ==========================================================================
+       NAVIGATION BAR
+       ========================================================================== -->
+  <header>
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container">
+        <!-- Brand Logo -->
+        <a class="navbar-brand-logo" href="#hero">
+          <div class="logo-badge">MH</div>
+          <span>SHAIKH <span class="text-gradient">M.HUSAIN</span></span>
+        </a>
+
+        <!-- Controls: Theme Toggle & Mobile Hamburger -->
+        <div class="d-flex align-items-center gap-2 order-lg-3">
+          <!-- Dark/Light Theme Toggle -->
+          <button id="themeToggleBtn" class="btn-theme-toggle" type="button" aria-label="Toggle theme">
+            <i id="themeIcon" class="bi bi-moon-stars-fill"></i>
+          </button>
+
+          <!-- Mobile Toggle Button -->
+          <button class="navbar-toggler border-0 text-white p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list fs-2"></i>
+          </button>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse order-lg-2" id="navbarContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-none d-lg-block">
+            <a href="#contact" class="btn btn-primary-gradient btn-sm px-3">
+              <i class="bi bi-send-fill me-1"></i> Get In Touch
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        
+        <!-- Hero Text -->
+        <div class="col-lg-7">
+          <div class="hero-status-pill">
+            <span class="pulse-dot"></span>
+            <span>2nd Year &bull; B.E. Information Technology</span>
+          </div>
+
+          <h1 class="hero-name">
+            Hi, I'm <br>
+            <span class="text-gradient">SHAIKH M.HUSAIN</span>
+          </h1>
+
+          <!-- Typewriter line -->
+          <div class="hero-typewriter-container">
+            <span>Passionate about: </span>
+            <span id="typewriterText" class="typewriter-text"></span>
+            <span class="typewriter-cursor"></span>
+          </div>
+
+          <p class="hero-bio">
+            Second-year student pursuing <strong class="text-white">B.E. Information Technology</strong>. Highly interested in <strong class="text-accent-cyan">Software Development</strong>, <strong class="text-accent-purple">Artificial Intelligence & Machine Learning</strong>, and aspiring technologies. Currently focusing on leveling up my skills in <strong class="text-white">Python, DSA</strong>, and <strong class="text-white">Database Management</strong>.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#contact" class="btn btn-primary-gradient">
+              <i class="bi bi-envelope-fill"></i> Contact Me
+            </a>
+            <a href="tel:+918591589084" class="btn btn-outline-custom">
+              <i class="bi bi-telephone-fill"></i> +91 8591589084
+            </a>
+            <a href="mailto:husainshaikh2407@gmail.com" class="btn btn-outline-custom">
+              <i class="bi bi-envelope-at"></i> Email Me
+            </a>
+          </div>
+
+          <!-- Quick Social / Links -->
+          <div class="hero-social-links mt-4">
+            <a href="mailto:husainshaikh2407@gmail.com" class="social-icon-btn" title="Email husainshaikh2407@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+918591589084" class="social-icon-btn" title="Call +91 8591589084">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Avatar Box -->
+        <div class="col-lg-5 text-center">
+          <div class="hero-visual-wrapper">
+            <div class="hero-avatar-box">
+              <div class="avatar-inner-graphic">
+                <div class="avatar-initials">MH</div>
+                <div class="avatar-caption">Shaikh M.Husain</div>
+                <span class="badge bg-dark border border-secondary text-light mt-2 px-3 py-1 font-mono">
+                  B.E. Information Technology
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT ME SECTION (Includes Skills Badges & Active Focus)
+       ========================================================================== -->
+  <section id="about" class="about-section">
+    <div class="container">
+      
+      <div class="section-title">
+        <span class="section-badge"><i class="bi bi-person-badge"></i> Profile</span>
+        <h2 class="section-heading">About <span class="text-gradient">Me</span></h2>
+        <p class="section-subheading">
+          A quick overview of my academic background, skills, and current learning areas.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        
+        <!-- Bio Card -->
+        <div class="col-lg-6">
+          <div class="glass-card about-card">
+            <h4 class="mb-3 text-white">Academic Background</h4>
+            <p class="text-secondary mb-3">
+              I am a second-year undergraduate student pursuing <strong class="text-white">B.E. in Information Technology</strong>. I am enthusiastic about software development, AI & ML, and aspiring technologies that solve practical challenges.
+            </p>
+            <p class="text-secondary mb-4">
+              I believe in strong fundamentals and continuous learning. Right now, I dedicate my focus every day toward strengthening my algorithmic problem-solving abilities and relational database understanding.
+            </p>
+
+            <div class="p-3 rounded-3 mb-4" style="background: rgba(99, 102, 241, 0.08); border: 1px solid rgba(99, 102, 241, 0.2);">
+              <h6 class="text-accent-cyan fw-bold mb-2">
+                <i class="bi bi-arrow-repeat me-2"></i>Currently Improving Skills In:
+              </h6>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-dark border border-info text-info py-2 px-3 font-mono">
+                  <i class="fa-brands fa-python me-1"></i> Python
+                </span>
+                <span class="badge bg-dark border border-primary text-light py-2 px-3 font-mono">
+                  <i class="bi bi-diagram-3-fill me-1 text-primary"></i> Data Structures & Algorithms (DSA)
+                </span>
+                <span class="badge bg-dark border border-success text-success py-2 px-3 font-mono">
+                  <i class="fa-solid fa-database me-1"></i> Database Management (DBMS)
+                </span>
+              </div>
+            </div>
+
+            <ul class="quick-detail-list mt-3">
+              <li>
+                <strong>Degree</strong>
+                <span>B.E. Information Technology</span>
+              </li>
+              <li>
+                <strong>Current Year</strong>
+                <span>Second Year</span>
+              </li>
+              <li>
+                <strong>Phone</strong>
+                <a href="tel:+918591589084" class="text-accent-emerald text-decoration-none">+91 8591589084</a>
+              </li>
+              <li>
+                <strong>Email</strong>
+                <a href="mailto:husainshaikh2407@gmail.com" class="text-accent-cyan text-decoration-none">husainshaikh2407@gmail.com</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+        <!-- Skills & Core Competencies Card -->
+        <div class="col-lg-6">
+          <div class="glass-card about-card d-flex flex-column justify-content-between">
+            <div>
+              <h4 class="mb-3 text-white"><i class="bi bi-code-slash text-accent-cyan me-2"></i>My Skills</h4>
+              <p class="text-secondary small mb-4">
+                Technologies and tools I work with across programming, web development, databases, and 3D modeling:
+              </p>
+
+              <!-- Clean Minimal Badge Grid -->
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <span class="skill-tag-pill"><i class="fa-solid fa-c text-info"></i> C</span>
+                <span class="skill-tag-pill"><i class="fa-solid fa-code text-primary"></i> C++</span>
+                <span class="skill-tag-pill"><i class="fa-brands fa-python text-warning"></i> Python</span>
+                <span class="skill-tag-pill"><i class="fa-brands fa-java text-danger"></i> Java</span>
+                <span class="skill-tag-pill"><i class="fa-brands fa-js text-warning"></i> JavaScript</span>
+                <span class="skill-tag-pill"><i class="fa-brands fa-html5 text-danger"></i> HTML</span>
+                <span class="skill-tag-pill"><i class="fa-brands fa-css3-alt text-info"></i> CSS</span>
+                <span class="skill-tag-pill"><i class="fa-brands fa-bootstrap" style="color: #8b5cf6;"></i> Bootstrap</span>
+                <span class="skill-tag-pill"><i class="fa-solid fa-database text-success"></i> DBMS</span>
+                <span class="skill-tag-pill"><i class="fa-solid fa-cube text-warning"></i> Fusion 360</span>
+              </div>
+            </div>
+
+            <!-- Areas of Interest -->
+            <div class="p-3 rounded-3" style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color);">
+              <h6 class="text-white fw-bold mb-2"><i class="bi bi-stars text-accent-purple me-2"></i>Areas of Interest</h6>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-dark border border-secondary text-secondary">Software Development</span>
+                <span class="badge bg-dark border border-secondary text-secondary">AI & ML</span>
+                <span class="badge bg-dark border border-secondary text-secondary">Aspiring Technologies</span>
+                <span class="badge bg-dark border border-secondary text-secondary">3D CAD Modeling</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT SECTION
+       ========================================================================== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      
+      <div class="section-title">
+        <span class="section-badge"><i class="bi bi-chat-heart"></i> Get In Touch</span>
+        <h2 class="section-heading">Contact <span class="text-gradient">Me</span></h2>
+        <p class="section-subheading">
+          Feel free to reach out directly via email, phone, or by sending a message below.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Contact Information Card -->
+        <div class="col-lg-5">
+          <div class="glass-card contact-info-card">
+            <h4 class="mb-3 text-white">Contact Details</h4>
+            <p class="text-secondary mb-4">
+              I am open to discussions, internships, and project collaborations.
+            </p>
+
+            <!-- Email -->
+            <div class="contact-method-item">
+              <div class="contact-method-icon">
+                <i class="bi bi-envelope-at-fill"></i>
+              </div>
+              <div>
+                <span class="small text-muted d-block">EMAIL</span>
+                <a href="mailto:husainshaikh2407@gmail.com" class="text-white text-decoration-none fw-semibold">
+                  husainshaikh2407@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-method-item">
+              <div class="contact-method-icon" style="background: rgba(16, 185, 129, 0.12); color: var(--accent-emerald); border-color: rgba(16, 185, 129, 0.25);">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div>
+                <span class="small text-muted d-block">PHONE</span>
+                <a href="tel:+918591589084" class="text-white text-decoration-none fw-semibold">
+                  +91 8591589084
+                </a>
+              </div>
+            </div>
+
+            <!-- Degree -->
+            <div class="contact-method-item">
+              <div class="contact-method-icon" style="background: rgba(6, 182, 212, 0.12); color: var(--accent-cyan); border-color: rgba(6, 182, 212, 0.25);">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+              <div>
+                <span class="small text-muted d-block">DEGREE</span>
+                <span class="text-white fw-semibold">B.E. Information Technology (2nd Year)</span>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="mt-4 pt-3 border-top border-secondary border-opacity-25">
+              <h6 class="text-secondary text-uppercase small mb-3">Online Profiles</h6>
+              <div class="d-flex gap-2">
+                <a href="mailto:husainshaikh2407@gmail.com" class="social-icon-btn" title="Email">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="tel:+918591589084" class="social-icon-btn" title="Phone">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <div class="glass-card contact-form-card">
+            
+            <div id="contactAlertContainer"></div>
+
+            <form id="contactForm" novalidate>
+              
+              <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                  <label for="contactName" class="form-label">Your Name <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-transparent border-end-0 text-secondary" style="border-color: var(--border-color);"><i class="bi bi-person"></i></span>
+                    <input type="text" class="form-control border-start-0" id="contactName" placeholder="e.g. John Doe" required>
+                  </div>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="contactEmail" class="form-label">Email Address <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-transparent border-end-0 text-secondary" style="border-color: var(--border-color);"><i class="bi bi-envelope"></i></span>
+                    <input type="email" class="form-control border-start-0" id="contactEmail" placeholder="name@example.com" required>
+                  </div>
+                  <div class="invalid-feedback">Please provide a valid email.</div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="contactSubject" class="form-label">Subject <span class="text-danger">*</span></label>
+                <div class="input-group">
+                  <span class="input-group-text bg-transparent border-end-0 text-secondary" style="border-color: var(--border-color);"><i class="bi bi-chat-left-text"></i></span>
+                  <input type="text" class="form-control border-start-0" id="contactSubject" placeholder="e.g. Project Discussion / Opportunity" required>
+                </div>
+                <div class="invalid-feedback">Please enter a subject.</div>
+              </div>
+
+              <div class="mb-4">
+                <label for="contactMessage" class="form-label">Your Message <span class="text-danger">*</span></label>
+                <textarea class="form-control" id="contactMessage" rows="5" placeholder="Hi Shaikh Husain, I would like to connect regarding..." required></textarea>
+                <div class="invalid-feedback">Please enter your message.</div>
+              </div>
+
+              <button type="submit" class="btn btn-primary-gradient w-100 py-3">
+                <i class="bi bi-send-fill me-2"></i> Send Message
+              </button>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center g-3">
+        
+        <div class="col-md-6 text-center text-md-start">
+          <div class="footer-brand">
+            SHAIKH <span class="text-gradient">M.HUSAIN</span>
+          </div>
+          <small class="text-secondary d-block mt-1">Second Year &bull; B.E. Information Technology</small>
+        </div>
+
+        <div class="col-md-6 text-center text-md-end">
+          <p class="mb-0 small text-secondary">
+            &copy; <span id="currentYear"></span> Shaikh M.Husain. Built with HTML, CSS & Bootstrap.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="backToTopBtn" class="btn-back-to-top" aria-label="Back to top" title="Scroll to top">
+    <i class="bi bi-arrow-up-short"></i>
+  </button>
+
+  <!-- Bootstrap 5.3.3 Bundle JS with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
